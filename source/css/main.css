@@ -193,9 +193,10 @@ header.stick ul li a:hover {
 .main {
     position: relative;
     /* background: linear-gradient(rgba(46, 139, 86, 0.5), rgba(34, 78, 67, 0.5));*/
+    background-color: var(--secondary);
     background: linear-gradient(to bottom,
-            rgba(34, 78, 67, .85)),
-        rgba(46, 139, 86, .65),
+            rgba(34, 78, 67, .8)),
+        rgba(46, 139, 86, .6),
         url("../../assets/images/dogsBanco.jpeg");
     height: 100vh;
     width: 100%;
