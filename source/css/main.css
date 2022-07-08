@@ -189,7 +189,7 @@ header.stick ul li a:hover {
 
 .main {
     position: relative;
-    background-image: url("/assets/images/dogsBanco.jpeg");
+    background-image: url("../../assets/images/dogsBanco.jpeg");
     background-color: linear-gradient(#2e8b5669, #224e4383);
     background-repeat: no-repeat;
     height: 100vh;
