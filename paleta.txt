@@ -1,0 +1,37 @@
+CAD2C5
+84A98C
+52796F
+354F52
+2F3E46
+
+C9E4CA
+87BBA2
+55828B
+3B6064
+364958
+
+F7FFF7
+E0F1E1
+C9E3CA
+3E7A6B
+224E43
+
+41B48C TESTAR
+
+FONT Releway
+
+
+Primária #F7FFF7
+Secundaria #3E7A6B
+BG-Primario #E7EEEC
+BG-Secundario #C9E3CA
+
+Texto #0F121A
+
+
+https://material.io/resources/color/#!/?view.left=0&view.right=1&primary.color=f7fff7&secondary.color=3e7a6b
+
+https://type-scale.com/
+
+PARALAX efeito
+https://www.youtube.com/watch?v=vpzjwRImDhI
