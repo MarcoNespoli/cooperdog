@@ -198,7 +198,7 @@ header.stick ul li a:hover {
     background: -webkit-linear-gradient(top,
             #3E7A6B 50%,
             #2E8B57 50%);
-    background: linear-gradient(to bottom,
+    background: linear-gradient(top bottom,
             #3E7A6B 50%,
             #2E8B57 50%);
     height: 100vh;
