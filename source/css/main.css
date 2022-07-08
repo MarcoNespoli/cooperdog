@@ -189,9 +189,7 @@ header.stick ul li a:hover {
 
 .main {
     position: relative;
-    background-image: url("../../assets/images/dogsBanco.jpeg");
-    background: linear-gradient(#2e8b5669, #224e4383);
-    background-repeat: no-repeat;
+    background-image: linear-gradient(#2e8b5669, #224e4383) url("https: //marconespoli.github.io/cooperdog/assets/images/dogsBanco.jpeg") no-repeat;
     height: 100vh;
     width: 100%;
     display: flex;
