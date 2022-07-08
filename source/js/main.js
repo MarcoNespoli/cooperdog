@@ -19,7 +19,8 @@ btnMobile.addEventListener('touchstart', toggleMenu);
 
 
 
+
 window.addEventListener("scroll", function () {
     var header = document.querySelector("header");
-    header.classList.toggle('stick', this.window.scrollY > 50)
+    header.classList.toggle('stick', this.window.scrollY > 10)
 })
