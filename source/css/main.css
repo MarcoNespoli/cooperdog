@@ -193,14 +193,10 @@ header.stick ul li a:hover {
 .main {
     position: relative;
     /* background: linear-gradient(rgba(46, 139, 86, 0.5), rgba(34, 78, 67, 0.5));*/
-    background: #7abcff;
+    background: #2E8B57;
     background: -moz-linear-gradient(top, #3E7A6B 50%, #2E8B57 50%);
-    background: -webkit-linear-gradient(top,
-            #3E7A6B 50%,
-            #2E8B57 50%);
-    background: linear-gradient(top bottom,
-            #3E7A6B 50%,
-            #2E8B57 50%);
+    background: -webkit-linear-gradient(top, #3E7A6B 50%, #2E8B57 50%);
+    background: linear-gradient(top bottom, #3E7A6B 50%, #2E8B57 50%);
     height: 100vh;
     width: 100%;
     display: flex;
