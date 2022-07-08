@@ -106,6 +106,7 @@ header {
     align-items: center;
     transition: 0.6s ease;
     box-sizing: border-box;
+    background-image: url("../../assets/images/cooperdog-branco.png");
 
     z-index: 1000;
     /* width: 100%;
