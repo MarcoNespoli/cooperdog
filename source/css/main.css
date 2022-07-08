@@ -623,7 +623,7 @@ header.stick ul li a:hover {
 
     .services-cards {
         display: grid;
-        min-width: 150px;
+        min-width: 120px;
         max-width: 90vw;
         margin-right: 0;
         margin: auto;
