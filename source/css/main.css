@@ -605,7 +605,7 @@ header.stick ul li a:hover {
     .story-image img {
         min-width: 300px;
         max-width: 100%;
-        border-radius: 0 0 30px 30px;
+        border-radius: 1rem;
     }
 
     .services {
@@ -627,7 +627,7 @@ header.stick ul li a:hover {
         max-width: 90vw;
         margin-right: 0;
         margin: auto;
-        padding: 1rem;
+        padding: .5rem;
     }
 
     .btn-agendar {
