@@ -126,7 +126,7 @@ header {
     transition: 0.6s ease;
     box-sizing: border-box;
     z-index: 1000;
-    background-image: url('/assets/images/cooperdog-branco.png');
+    background-image: url('../../assets/images/cooperdog-branco.png');
     background-position: left center;
     background-size: 120px 120px;
     background-repeat: no-repeat;
@@ -175,7 +175,7 @@ header.stick ul li a:hover {
 
 .stick {
     background-color: var(--primary);
-    background-image: url('/assets/images/cooperdog.png');
+    background-image: url('../../assets/images/cooperdog.png');
     background-position: left center;
     background-size: 120px 120px;
     background-repeat: no-repeat;
