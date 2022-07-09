@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;300;400;600;800&family=Roboto:wght@100;300;400;700;900&display=swap');
 
 * {
     margin: 0;
@@ -20,51 +20,69 @@
     --h-color: var(--secondary);
     --btn-primary: var(--secondary);
     --btn-secondary: var(--primary);
-
-
 }
 
 
-/*a {
-    color: var(--fonts-primary);
-    font-weight: 500;
+a {
     text-decoration: none;
 }
 
 a:hover {
     background-color: #2e8b562d;
     border-radius: 10px;
-}*/
+}
 
 body {
-    font-family: "Roboto", sans-serif;
-    /*"Nunito", sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
     background-color: var(--primary);
+}
+
+h1 {
+    font-size: 2.625rem;
+    line-height: 3.5rem;
+    letter-spacing: 0.04em;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 2.375rem;
+    line-height: 120%;
+    letter-spacing: 0.04em;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--secondary);
+    margin-bottom: 1rem;
 }
 
 h3 {
     font-weight: 400;
-    padding-bottom: 1rem;
-    font-size: 1.3rem;
-    margin: 0;
-    color: var(--h-color);
+    line-height: 120%;
+    letter-spacing: 0.04em;
+    font-weight: 900;
+}
+
+h4 {
+    font-size: 1.5rem;
+    line-height: 120%;
+    letter-spacing: 0.04em;
+    font-weight: 900;
 }
 
 h5 {
-    padding-top: 1rem;
-    font-size: 2.25rem;
-    color: var(--h-color);
-    line-height: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    font-family: 'Robot', sans-serif;
+    font-weight: 100;
     margin-bottom: 1rem;
-    font-weight: 500;
-    color: var(--h-color);
-
 }
 
 h6 {
-    font-size: 1.1rem;
-    color: var(--h-color);
-
+    font-size: 1.375rem;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
 }
 
 p {
@@ -72,28 +90,28 @@ p {
     color: var(--fonts-primary);
 }
 
+.lead {
+    font-size: 1.125;
+    font-weight: 600;
+}
+
 .btn-agendar {
     background-color: var(--btn-primary);
+    border: 1px solid var(--bg-secondary);
     padding: 1rem 2rem 1rem 2rem;
     font-size: .75rem;
     letter-spacing: .5rem;
     color: var(--fonts-secondary);
-    border-radius: 10px;
+    border-radius: 0.8rem;
     margin-top: 1.5rem;
     cursor: pointer;
+    transition: 1s ease-in-out;
 }
 
-.btn-more {
-    background-color: var(--btn-primary);
-    height: 1.5rem;
-    line-height: 1.25rem;
-    width: 1.5rem;
-    font-size: 1.5rem;
-    font-weight: 600;
-    border-radius: 50%;
-    color: var(--fonts-secondary);
-    text-align: center;
-    cursor: pointer;
+
+.btn-agendar:hover {
+    transition: 1s ease-in-out;
+    background-color: transparent;
 }
 
 header {
@@ -106,20 +124,7 @@ header {
     align-items: center;
     transition: 0.6s ease;
     box-sizing: border-box;
-
     z-index: 1000;
-    /* width: 100%;
-    box-sizing: border-box;
-   height: 100px;
-    padding: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 500;
-    transition: top 0.5s ease;
-    transition: background-color 0.5s ease;
-    backdrop-filter: blur(5px);*/
-
 }
 
 header ul {
@@ -149,14 +154,9 @@ header a:hover {
     border-radius: 10px;
 }
 
-/*header.stick {
-    background-color: var(--primary);
-}*/
-
 header.stick ul li a {
     color: var(--secondary);
     border-radius: 10px;
-
 }
 
 header.stick ul li a:hover {
@@ -187,12 +187,8 @@ header.stick ul li a:hover {
     display: none;
 }
 
-
-
-
 .main {
     position: relative;
-    /* background: linear-gradient(rgba(46, 139, 86, 0.5), rgba(34, 78, 67, 0.5));*/
     background: linear-gradient(to bottom, rgba(34, 78, 67, .9), rgba(46, 139, 86, .7)),
         url("../../assets/images/dogsBanco.jpeg");
     height: 100vh;
@@ -200,28 +196,28 @@ header.stick ul li a:hover {
     display: flex;
     align-items: center;
     padding: 1rem;
-    /*  clip-path: polygon(0% 5%, 100% 0, 100% 95%, 0 100%);*/
-}
-
-
-.main h5 {
-    color: var(--fonts-secondary);
-}
-
-.main p {
-    color: var(--fonts-secondary);
 }
 
 .main-info {
     padding: 2.1rem;
-    color: var(--fonts-secondary);
     background-color: var(--bg-alpha);
     border-radius: 20px;
-    font-size: 1rem;
     width: 40%;
     backdrop-filter: blur(5px);
 }
 
+.main-info>p {
+    color: var(--fonts-secondary);
+}
+
+.main-info>h2 {
+    color: var(--fonts-secondary);
+    margin-bottom: 0;
+}
+
+.main-info>h5 {
+    color: var(--fonts-secondary);
+}
 
 .story {
     margin-top: 1.5rem;
@@ -231,7 +227,6 @@ header.stick ul li a:hover {
     justify-content: center;
     gap: 3rem;
 }
-
 
 .story-text {
     padding: 1rem;
@@ -256,18 +251,12 @@ header.stick ul li a:hover {
     justify-content: center;
 }
 
-.services-h5 {
-    padding-left: 1rem;
-    padding-top: 1.5rem;
-}
-
-.services-p {
-    padding-left: 1rem;
-}
 
 .services-description {
     flex: 1;
     margin-left: 15vw;
+    padding: 1rem;
+    max-width: 450px;
 }
 
 .services-text {
@@ -344,27 +333,12 @@ header.stick ul li a:hover {
     background-color: var(--bg-secondary);
     padding: 1.5rem 15vw 1.5rem 15vw;
     margin: auto;
-    /*  ;
-      flex-wrap: wrap;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 5vw);
-    grid-gap: 15px;
-    margin: auto;
-    margin-top: 1.5rem;
-    background-color: var(--bg-primary);
-    padding: 1rem 15vw;*/
 }
 
 .instalations-text {
-
     display: flex;
     justify-content: center;
     flex-direction: column;
-    /*  grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 5;
-    padding: 1rem;*/
 }
 
 .instalations-itens {
@@ -374,7 +348,6 @@ header.stick ul li a:hover {
     -webkit-backdrop-filter: blur(5px);
     border-radius: 1.2rem;
     border: 1px solid rgba(247, 255, 247, 0.3);
-
 }
 
 .installations .instalations-img {
@@ -382,10 +355,6 @@ header.stick ul li a:hover {
     height: 100%;
     object-fit: cover;
     border-radius: 1.2rem;
-    /*   object-fit: cover;
-    border-radius: 15px;
-    transition: all 0.3s;
-    filter: grayscale(1);*/
 }
 
 .instalations-img:hover {
@@ -408,47 +377,6 @@ header.stick ul li a:hover {
     grid-column: span 2;
 }
 
-/*.item-1 {
-    grid-column-start: 5;
-    grid-column-end: 7;
-    grid-row-start: 1;
-    grid-row-end: 3;
-}
-
-
-.item-2 {
-    grid-column-start: 7;
-    grid-column-end: 9;
-    grid-row-start: 1;
-    grid-row-end: 3;
-}
-
-.item-4 {
-    grid-column-start: 5;
-    grid-column-end: 9;
-    grid-row-start: 3;
-    grid-row-end: 6;
-}
-
-.item-5 {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 5;
-    grid-row-end: 9;
-}
-
-.item-6 {
-    grid-column-start: 5;
-    grid-column-end: 9;
-    grid-row-start: 6;
-    grid-row-end: 9;
-}*/
-
-
-.customers {
-    background-color: #2E8B57;
-}
-
 .maps {
     background-color: var(--secondary);
     display: flex;
@@ -460,29 +388,21 @@ header.stick ul li a:hover {
 }
 
 .address {
-    box-sizing: border-box;
     padding: 3rem;
     line-height: 2rem;
     flex: 1;
-
+    color: var(--fonts-secondary);
 }
 
 .address p {
-    line-height: 2.5rem;
-    font-size: 1.1rem;
     color: var(--fonts-secondary);
-}
-
-.address h3 {
-    color: var(--fonts-secondary);
+    font-size: 0.75rem;
 }
 
 .iframe {
-    flex: 1;
+    flex: 2;
     height: 80vh;
 }
-
-
 
 @media (max-width: 600px) {
 
@@ -663,6 +583,11 @@ header.stick ul li a:hover {
 
     .w-2 {
         grid-column: span 1;
+    }
+
+    .address {
+        padding: 1rem;
+
     }
 
 }
