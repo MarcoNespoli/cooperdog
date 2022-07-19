@@ -587,12 +587,8 @@ header.stick ul li a:hover {
         gap: 1.5rem;
     }
 
-
-
-
     .btn-agendar {
         width: 100%;
-
     }
 
     .message {
@@ -637,8 +633,8 @@ header.stick ul li a:hover {
 }
 
 .color-2 {
-    background-color: #F7F0FA;
-    color: #3E4D7A;
+    background-color: #FDF2FC;
+
     margin: 0;
     padding: 1rem;
 }
@@ -668,7 +664,7 @@ header.stick ul li a:hover {
 }
 
 .color-9 {
-    background-color: #fefcec;
+    background-color: #F1ECF3;
 }
 
 .color-10 {
